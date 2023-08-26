@@ -6,7 +6,7 @@ import reduxWoodsImg from '../assets/img/redux-woods.jpg';
 export const CAMPSITES = [
     {
         id: 0,
-        name: 'React Lake Campground',
+        name: 'Hollywood',
         image: reactLakeImg,
         elevation: 1233,
         featured: false,
@@ -15,7 +15,7 @@ export const CAMPSITES = [
     },
     {
         id: 1,
-        name: 'Chrome River Campground ',
+        name: 'Long Cane',
         image: chromeRiverImg,
         elevation: 877,
         featured: false,
@@ -24,7 +24,7 @@ export const CAMPSITES = [
     },
     {
         id: 2,
-        name: 'Breadcrumb Trail Campground',
+        name: 'Chappels Ferry',
         image: breadCrumbImg,
         elevation: 2901,
         featured: false,
@@ -33,7 +33,16 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name: 'Redux Woods Campground',
+        name: 'Old Charleston',
+        image: reduxWoodsImg,
+        elevation: 42,
+        featured: true,
+        description:
+            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+    },
+    {
+        id: 4,
+        name: 'Piney Wood',
         image: reduxWoodsImg,
         elevation: 42,
         featured: true,
