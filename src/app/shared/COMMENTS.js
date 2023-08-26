@@ -1,9 +1,10 @@
+
 export const COMMENTS = [
     {
         id: 0,
         campsiteId: 0,
         rating: 5,
-        text: 'The grass was indeed greener here than our last campsite.',
+        text: 'Driving directions to this property' ,
         author: 'Simon Hunt',
         date: '2018-10-25T16:30Z'
     },

@@ -3,6 +3,7 @@ import chromeRiverImg from '../assets/img/chrome-river.jpg';
 import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
 import reduxWoodsImg from '../assets/img/redux-woods.jpg';
 
+
 export const CAMPSITES = [
     {
         id: 0,
@@ -11,7 +12,7 @@ export const CAMPSITES = [
         elevation: 1233,
         featured: false,
         description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            'This 520 acre property has 20+ permanant stand locations with a mix of hardwoods, pine stands, and creek bottoms  .'
     },
     {
         id: 1,
