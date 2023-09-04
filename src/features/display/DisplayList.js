@@ -4,13 +4,13 @@ import { Col, Row } from 'reactstrap';
 import AnimatedDisplayCard from './AnimatedDisplayCard';
 import { selectFeaturedCampsite } from '../campsites/campsitesSlice';
 import { selectFeaturedPromotion } from '../promotions/promotionsSlice';
-import { selectFeaturedPartner } from '../parters/partnersSlice';
+//import { selectFeaturedPartner } from '../parters/partnersSlice';
 
 const DisplayList = () => {
     const items = useSelector((state) => [
         selectFeaturedCampsite(state), 
         selectFeaturedPromotion(state), 
-        selectFeaturedPartner(state)
+       // selectFeaturedPartner(state)
     ]);
 
     console.log('display items:', items);

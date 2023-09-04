@@ -54,7 +54,7 @@ export const CAMPSITES = [
         id: 4,
         name: 'Piney Wood',
         directions: "https://goo.gl/maps/hqAeMGhH63wfyHRa7",
-        info: 'test',
+        info: 'Our clover plot helping to feed tomorrows deer',
         image: cloverImg,
         elevation: 42,
         featured: true,
