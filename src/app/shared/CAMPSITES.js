@@ -9,6 +9,7 @@ export const CAMPSITES = [
     {
         id: 0,
         name: 'Hollywood',
+        info: 'Testing',
         image: cfBuck2Img,
         elevation: 1233,
         featured: false,
@@ -18,6 +19,7 @@ export const CAMPSITES = [
     {
         id: 1,
         name: 'Long Cane',
+        info: 'test',
         image: cfBuck3Img,
         elevation: 877,
         featured: false,
@@ -27,6 +29,7 @@ export const CAMPSITES = [
     {
         id: 2,
         name: 'Chappels Ferry',
+        info: 'test',
         image: cfBuckImg,
         elevation: 2901,
         featured: false,
@@ -36,6 +39,7 @@ export const CAMPSITES = [
     {
         id: 3,
         name: 'Old Charleston',
+        info: 'test',
         image: cfFirstDeer,
         elevation: 42,
         featured: false,
@@ -45,6 +49,7 @@ export const CAMPSITES = [
     {
         id: 4,
         name: 'Piney Wood',
+        info: 'test',
         image: cloverImg,
         elevation: 42,
         featured: true,

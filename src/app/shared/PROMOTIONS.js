@@ -7,7 +7,7 @@ import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Trophy Buck Opportunities',
+        name: 'Trophy Buck OpportunitiesH',
         image: cfBuck2Img,
         featured: true,
         description:
