@@ -27,7 +27,7 @@ const Footer = () => {
                         <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-facebook'
-                            href='https://www.facebook.com/people/Buck-and-Beard-Hunting-Club-SC/100063697293182/' target="_blank" 
+                            href='https://www.facebook.com/people/Buck-and-Beard-Hunting-Club-SC/100063697293182/' alt="Buck&Beard Public Facebook Page" target="_blank" rel="noreferrer" 
                         >
                             <i className='fa fa-facebook' />
                         </a>{' '}
