@@ -1,16 +1,14 @@
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
-//Photo by Jonny Caspari on Unsplash
-import weedsImg from '../assets/img/weeds.jpg';
-// Photo by LoboStudio Hamburg on Unsplash
-import bootsImg from '../assets/img/boots.jpg';
-// Photo by Jonathan Gallegos on Unsplash
-import asyncImg from '../assets/img/mount-promise.jpg';
+import cfBuck2Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 2.jpeg';
+import cfBuck3Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 3.jpeg';
+import cfBuckImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck.jpeg';
+import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Clover.jpeg'
+
 
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Mountain Adventure',
-        image: breadCrumbImg,
+        name: 'Trophy Buck Opportunities',
+        image: cfBuck2Img,
         featured: true,
         description:
             'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
@@ -18,22 +16,22 @@ export const PROMOTIONS = [
     {
         id: 1,
         name: 'Into The Weeds',
-        image: weedsImg,
-        featured: false,
+        image: cfBuck3Img,
+        featured: true,
         description:
             '5 days deep in the Redux National Monument, far from the beaten path, with only a reducer in your backpack. Guide provided.'
     },
     {
         id: 2,
         name: 'Bootstrap Teardown',
-        image: bootsImg,
-        featured: false,
+        image: cfBuckImg,
+        featured: true,
         description: `In this weekend workshop, we'll rebuild your bootstraps from scratch, so you're ready for next-level excursions.`
     },
     {
         id: 3,
         name: 'Asynchronous Rendezvous',
-        image: asyncImg,
+        image: cloverImg,
         featured: false,
         description:
             'Meet up with your guide at the top of Promise Mountain. Or, try to. Good luck!'

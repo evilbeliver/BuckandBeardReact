@@ -1,14 +1,15 @@
-import reactLakeImg from '../assets/img/react-lake.jpg';
-import chromeRiverImg from '../assets/img/chrome-river.jpg';
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
-import reduxWoodsImg from '../assets/img/redux-woods.jpg';
+import cfBuck2Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 2.jpeg';
+import cfBuck3Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 3.jpeg';
+import cfBuckImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck.jpeg';
+import cfFirstDeer from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF first deer.jpeg';
+import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Clover.jpeg'
 
 
 export const CAMPSITES = [
     {
         id: 0,
         name: 'Hollywood',
-        image: reactLakeImg,
+        image: cfBuck2Img,
         elevation: 1233,
         featured: false,
         description:
@@ -17,7 +18,7 @@ export const CAMPSITES = [
     {
         id: 1,
         name: 'Long Cane',
-        image: chromeRiverImg,
+        image: cfBuck3Img,
         elevation: 877,
         featured: false,
         description:
@@ -26,7 +27,7 @@ export const CAMPSITES = [
     {
         id: 2,
         name: 'Chappels Ferry',
-        image: breadCrumbImg,
+        image: cfBuckImg,
         elevation: 2901,
         featured: false,
         description:
@@ -35,16 +36,16 @@ export const CAMPSITES = [
     {
         id: 3,
         name: 'Old Charleston',
-        image: reduxWoodsImg,
+        image: cfFirstDeer,
         elevation: 42,
-        featured: true,
+        featured: false,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Helping our youth hunters of tomorrow, we are a family club first and foremmost"
     },
     {
         id: 4,
         name: 'Piney Wood',
-        image: reduxWoodsImg,
+        image: cloverImg,
         elevation: 42,
         featured: true,
         description:
