@@ -22,7 +22,6 @@ const HomePage = () => {
             <DisplayList />
         </Container>
     );
-    
 };
 
 export default HomePage;
