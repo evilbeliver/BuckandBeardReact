@@ -1,5 +1,4 @@
-
-import { faqs } from "/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/shared/FAQ.js"
+import { faqs } from "/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/shared/FAQ.js";
 import AccordionItem from "./AccordionItem";
 
 const Accordion = () => {

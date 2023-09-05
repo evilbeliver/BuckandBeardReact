@@ -5,6 +5,7 @@ const FAQpage = () => {
   return (
     <div className="container">
          <SubHeader current='FAQ' />
+         
       <Accordion />
     </div>
   );
