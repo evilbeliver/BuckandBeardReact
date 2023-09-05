@@ -7,7 +7,6 @@ const AboutPage = () => {
     return (
         <Container>
             <SubHeader current='About Us' />
-            <Row className='row-content' >
                 <Col sm='11'>
                 <p> At the conclusion of the 2012 deer hunting season, a group of men who had been hunting
                             together for years met to discuss a vision of forming a new hunting club.  They collectively
@@ -58,7 +57,6 @@ const AboutPage = () => {
                         </CardBody>
                     </Card>
                 </Col>
-            </Row>
             <Row className='row-content'>
                 <Col xs='12'>
                     <h3>Community Partners</h3>

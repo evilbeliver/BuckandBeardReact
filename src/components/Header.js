@@ -17,7 +17,7 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <img src={BuckbeardLogo} alt='buckandbeard logo' className='float-start' />
-                <h1 className='mt-1'>Buck&Beard Hunt Club</h1>
+                <h1 className='mt-1'>Buck and Beard</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
