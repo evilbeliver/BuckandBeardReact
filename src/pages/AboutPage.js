@@ -50,8 +50,6 @@ const AboutPage = () => {
                         <CardBody >
                             <blockquote className='blockquote'>
                                 <p> “A hunt based only on trophies taken falls far short of what the ultimate goal should be.” 
-
-
                                 </p>
                                 <footer className='blockquote-footer'> 
                                         Fred Bear{' '}
