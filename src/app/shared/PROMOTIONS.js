@@ -1,4 +1,4 @@
-import cfBuck2Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 2.jpeg';
+import turkeyImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/turkey.jpg';
 import cfBuck3Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 3.jpeg';
 import cfBuckImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck.jpeg';
 import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Clover.jpeg'
@@ -7,11 +7,13 @@ import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/
 export const PROMOTIONS = [
     {
         id: 0,
-        name: 'Trophy Buck OpportunitiesH',
-        image: cfBuck2Img,
+        name: 'Turkey Hunting',
+        info: 'Turkey Hunting',
+        image: turkeyImg,
         featured: true,
+        altdescription: 'Our properties are not only managed for deer but for some great spring turkey hunting as well.',    
         description:
-            'Book a 5-day mountain trek with a seasoned outdoor guide! Fly fishing equipment and lessons provided.'
+            'Our properties are not only managed for deer but for some great spring turkey hunting as well.'    
     },
     {
         id: 1,

@@ -10,10 +10,11 @@ export const CAMPSITES = [
         id: 0,
         name: 'Hollywood',
         directions:  "https://goo.gl/maps/t41yX5xT2cDS9axQ9",
-        info: 'Testing',
+        info: 'Deer Hunting',
         image: cfBuck2Img,
         elevation: 1233,
-        featured: false,
+        featured: true,
+        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
             'This 520 acre property has 20+ permanant stand locations with a mix of hardwoods, pine stands, and creek bottoms  .'
     },
@@ -24,7 +25,7 @@ export const CAMPSITES = [
         info: 'test',
         image: cfBuck3Img,
         elevation: 877,
-        featured: false,
+        featured: true,
         description:
             'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
     },

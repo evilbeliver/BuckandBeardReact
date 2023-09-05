@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { useSpring, animated } from 'react-spring';
 
 const AnimatedDisplayCard = ({ item }) => {
-    const { image, description, info } = item;
+    const { image, altdescription, info } = item;
     const [toggle, setToggle ] = useState(false);
 
     const animatedStyle = useSpring({
@@ -22,7 +22,7 @@ const AnimatedDisplayCard = ({ item }) => {
                 <CardImg src={image} alt={info} />
                 <CardBody>
                     <CardTitle>{info}</CardTitle>
-                    <CardText>{description}</CardText>
+                    <CardText>{altdescription}</CardText>
                 </CardBody>
             </Card>
         </animated.div>
