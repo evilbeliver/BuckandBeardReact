@@ -16,7 +16,7 @@ const AboutPage = () => {
                             was obvious that we all shared the same ideals for a FAMILY-ORIENTED hunting club and we
                             stood united to pursue our vision.  On that day in January of 2013, the Buck & Beard Hunting
                             Club became a reality and at that time, we adopted a simple, but powerful goal, where we
-                            “AIM” TO RESPECT THE SPORT, THE RESOURCES AND EACH OTHER!<br></br>
+                            “AIM” TO RESPECT THE SPORT, THE RESOURCES AND EACH OTHER!<br></br><br></br>
 
                             Our membership can expect, in all our undertakings, SAFETY to be at the top of our list.  In
                             all we do, before we act, we take every humanly conceivable risk out of the picture and
@@ -24,7 +24,7 @@ const AboutPage = () => {
                             We are a united group that takes great pride in our families and all participation they may
                             have in our activities.  There is nothing quite like witnessing a youngster harvesting that
                             first deer.  It is a milestone to be remembered for a lifetime and to be able to share in
-                            that moment brings joy to each of us.<br></br>
+                            that moment brings joy to each of us.<br></br><br></br>
 
                             Members are obligated to participate in work days, which typically begin in January.  While
                             only 6 work days are required, most of our members come to as many work days as possible for
@@ -32,7 +32,7 @@ const AboutPage = () => {
                             months; to get away from the typical, day-to-day norm;  to feel a sense of commitment to
                             their club; and FELLOWSHIP.  When we close our work days, we may be sore and exhausted, but
                             we feel good.  We have just spent quality time with friends and in the process, learned more
-                            about “my hunting club”.<br></br>
+                            about “my hunting club”.<br></br><br></br>
 
                             We currently have large tracts of hunting property of mixed terrain in Saluda and Edgefield
                             Counties of South Carolina.  Our annual membership roster is determined based on the acreage
