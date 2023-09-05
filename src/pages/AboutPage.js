@@ -9,7 +9,6 @@ const AboutPage = () => {
             <SubHeader current='About Us' />
             <Row className='row-content' >
                 <Col sm='11'>
-                    <h3>Our Story</h3>
                     <p> At the conclusion of the 2012 deer hunting season, a group of men who had been hunting
                             together for years met to discuss a vision of forming a new hunting club.  They collectively
                             represented many years of hunting in very diverse clubs across the state and input from

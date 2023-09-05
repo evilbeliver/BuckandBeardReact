@@ -34,12 +34,20 @@ const Footer = () => {
                        
                     </Col>
                     <Col sm='4' className='text-center'>
+                         <h5>Contact</h5>
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+18037275111'
                         >
                             <i className='fa fa-phone' /> Steve: 1-803-727-5111
+                        </a>
+                        <a
+                            role='button'
+                            className='btn btn-link'
+                            href='tel:+15136076445'
+                        >
+                            <i className='fa fa-phone' /> Dave: 1-513-607-6445
                         </a>
                         <br />
                         <a
