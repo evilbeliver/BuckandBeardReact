@@ -2,11 +2,11 @@ import { Col, Row, Container, Card, CardBody, } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import PartnersList from '../features/parters/PartnersList';
 
-const AboutPage = () => {
+const FAQpage = () => {
 
     return (
         <Container>
-            <SubHeader current='About Us' />
+            <SubHeader current='FAQ' />
             <Row className='row-content' >
                 <Col sm='11'>
                     <p> At the conclusion of the 2012 deer hunting season, a group of men who had been hunting
@@ -43,7 +43,6 @@ const AboutPage = () => {
                             families involved.
                     </p>
                 </Col>
- 
                 <Col>
                     <Card className='bg-light mt-3'>
                         <CardBody >
@@ -58,14 +57,8 @@ const AboutPage = () => {
                     </Card>
                 </Col>
             </Row>
-            <Row className='row-content'>
-                <Col xs='12'>
-                    <h3>Community Partners</h3>
-                </Col>
-                <PartnersList></PartnersList>
-            </Row>
         </Container>
     );
 };
 
-export default AboutPage;
+export default FAQpage;

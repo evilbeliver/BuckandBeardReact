@@ -15,8 +15,8 @@ const HomePage = () => {
                             for the outdoors and the opportunities to enjoy safe successful deer and turkey hunting. If you are
                             seeking a new experience, we encourage you to read on to determine if we offer what you are looking
                             for. For more information and to schedule a tour of our properties, please give us a call or email
-                            us.
-                        </p>
+                            us.  
+                         </p>
                 </Col>
             </Row>
             <DisplayList />

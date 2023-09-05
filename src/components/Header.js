@@ -17,7 +17,7 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <img src={BuckbeardLogo} alt='buckandbeard logo' className='float-start' />
-                <h1 className='mt-1'>Buck&Beard</h1>
+                <h1 className='mt-1'>Buck&Beard Hunt Club</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
@@ -29,7 +29,7 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/directory'>
-                            <i className='fa fa-list fa-lg' /> Directory
+                            <i className='fa fa-list fa-lg' /> Properties
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -40,6 +40,11 @@ const Header = () => {
                     <NavItem>
                         <NavLink className='nav-link' to='/contact'>
                             <i className='fa fa-address-card fa-lg' /> Contact
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/faq'>
+                            <i className='fa fa-address-card fa-lg' /> FAQ
                         </NavLink>
                     </NavItem>
                 </Nav>
