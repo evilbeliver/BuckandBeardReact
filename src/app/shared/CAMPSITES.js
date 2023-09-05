@@ -26,6 +26,7 @@ export const CAMPSITES = [
         image: cfBuck3Img,
         elevation: 877,
         featured: true,
+        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
             'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
     },
@@ -37,6 +38,7 @@ export const CAMPSITES = [
         image: cfBuckImg,
         elevation: 2901,
         featured: false,
+        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
             'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
     },
@@ -48,6 +50,7 @@ export const CAMPSITES = [
         image: cfFirstDeer,
         elevation: 42,
         featured: false,
+        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
             "Helping our youth hunters of tomorrow, we are a family club first and foremmost"
     },
@@ -59,6 +62,7 @@ export const CAMPSITES = [
         image: cloverImg,
         elevation: 42,
         featured: true,
+        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
             "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
     }
