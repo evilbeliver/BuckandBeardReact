@@ -1,20 +1,13 @@
-import { Col, Row, Container } from 'reactstrap';
-import SubHeader from '../components/SubHeader';
-import Faq from 'react-faq-component';
-import React, { Component } from 'react';
-
+import SubHeader from "../components/SubHeader";
+import Accordion from "../components/Accordion";
 
 const FAQpage = () => {
-    return (
-        <Container>
-            <SubHeader current='FAQ' />
-            <Row className='row-content' >
-                <Col sm='11'>
-
-                </Col>
-            </Row>
-        </Container>
-    );
+  return (
+    <div className="container">
+         <SubHeader current='FAQ' />
+      <Accordion />
+    </div>
+  );
 };
 
 export default FAQpage;
