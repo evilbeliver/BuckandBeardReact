@@ -2,7 +2,7 @@ import bootStrapLogo from '../assets/img/bootstrap-logo.png';
 import gitLogo from '../assets/img/git-logo.png';
 import mongoLogo from '../assets/img/mongo-logo.png';
 import nodeLogo from '../assets/img/node-logo.png';
-import cfBuck3Img from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/CF Buck 3.jpeg';
+import upland from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/upland.jpeg';
 
 export const PARTNERS = [
     {
@@ -10,7 +10,7 @@ export const PARTNERS = [
         name: 'Steve Till',
         image: bootStrapLogo,
         featured: false,
-        contact: '1-803-727-5111' ,
+        contact: 'tel:+ 1-803-727-5111' ,
         description:
             "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
     },
@@ -19,7 +19,7 @@ export const PARTNERS = [
         name: 'Todd Randall',
         image: gitLogo,
         featured: false,
-        contact: '1-803-270-7319' ,
+        contact: 'tel:+ 1-803-270-7319' ,
         description:
             'Join Git Out Expeditions to explore new horizons with a group of other adventurers!'
     },
@@ -28,7 +28,7 @@ export const PARTNERS = [
         name: 'Ken Wood',
         image: mongoLogo,
         featured: false,
-        contact: '1-803-603-4207' ,
+        contact: 'tel:+ 1-803-603-4207' ,
         description:
             'Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.'
     },
@@ -37,25 +37,25 @@ export const PARTNERS = [
         name: 'Gary Barton',
         image: nodeLogo,
         featured: false,
-        contact: '1-803-727-5111' ,
+        contact: 'tel:+ 1-803-727-5111' ,
         description:
             'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
     },
     {
         id: 4,
         name: 'Dave Cristinzio',
-        image: cfBuck3Img,
+        image: upland,
         featured: false,
-        contact: '1-513-607-6445' ,
+        contact: 'tel:+ 1-513-607-6445' ,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            'Dave has 20+ years eperience in hunting from upland (pheasant, grouse, quail, and woodcock) to bow and rifle hunting for deer. Dave also has experince in training upland hunting dogs and loves everything to do with Weimaraners'
     },
     {
         id: 5,
         name: 'Adam Seibert',
         image: nodeLogo,
         featured: false,
-        contact: '1-803-768-7302' ,
+        contact: 'tel:+ 1-803-768-7302' ,
         description:
             'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
     },

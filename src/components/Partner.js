@@ -11,8 +11,8 @@ const Partner = ({ partner }) => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href={contact}
-                        >
+                            href={contact} alt="Link to Phone Number" target="_blank" rel="noreferrer">
+                        
                             <i className='fa fa-phone' />{contact}
                         </a>
                       

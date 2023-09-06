@@ -61,7 +61,7 @@ const AboutPage = () => {
                 </Col>
             <Row className='row-content'>
                 <Col xs='12'>
-                    <h3>Buck and Beard Officers</h3>
+                    <h3>Buck and Beard Hunt Club Officers</h3>
                 </Col>
                 <PartnersList></PartnersList>
             </Row>
