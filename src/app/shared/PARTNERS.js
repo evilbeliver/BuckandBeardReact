@@ -48,7 +48,7 @@ export const PARTNERS = [
         featured: false,
         contact: 'tel:+ 1-513-607-6445' ,
         description:
-            'Dave has 20+ years eperience in hunting from upland (pheasant, grouse, quail, and woodcock) to bow and rifle hunting for deer. Dave also has experince in training upland hunting dogs and loves everything to do with Weimaraners'
+            'Dave has been part of Buck and Beard for 5+ years and has been an officer over 4 of those years. Dave has 20+ years eperience in hunting from upland (pheasant, grouse, quail, and woodcock) to bow and rifle hunting for deer. Dave also has experince in training upland hunting dogs and loves everything to do with Weimaraners'
     },
     {
         id: 5,
