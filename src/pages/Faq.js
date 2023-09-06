@@ -5,7 +5,8 @@ const FAQpage = () => {
   return (
     <div className="container">
          <SubHeader current='FAQ' />
-         
+         <h2>Below is a list of commonly asked quesitons and the answers related to BuckandBeard Hunt Club.</h2>
+         <br></br>
       <Accordion />
     </div>
   );
