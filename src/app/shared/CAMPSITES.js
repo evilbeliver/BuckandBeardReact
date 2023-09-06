@@ -12,11 +12,10 @@ export const CAMPSITES = [
         directions:  "https://goo.gl/maps/t41yX5xT2cDS9axQ9",
         info: 'Deer Hunting',
         image: cfBuck2Img,
-        elevation: 1233,
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            'This 520 acre property has 20+ permanant stand locations with a mix of hardwoods, pine stands, and creek bottoms  .'
+            'Please click on the button below to get driving diretions .'
     },
     {
         id: 1,
@@ -24,11 +23,10 @@ export const CAMPSITES = [
         directions: "https://goo.gl/maps/ENw5f8Ce3XDGwJoM8",
         info: 'test',
         image: cfBuck3Img,
-        elevation: 877,
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+        'Please click on the button below to get driving diretions .'
     },
     {
         id: 2,
@@ -36,11 +34,10 @@ export const CAMPSITES = [
         directions: "https://goo.gl/maps/w9CzC3vD9ho1p45q9",
         info: 'test',
         image: cfBuckImg,
-        elevation: 2901,
         featured: false,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+        'Please click on the button below to get driving diretions .'
     },
     {
         id: 3,
@@ -48,11 +45,10 @@ export const CAMPSITES = [
         directions: "https://goo.gl/maps/NdPbfFC4G5LTg7n66",
         info: 'test',
         image: cfFirstDeer,
-        elevation: 42,
         featured: false,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            "Helping our youth hunters of tomorrow, we are a family club first and foremmost"
+        'Please click on the button below to get driving diretions .'
     },
     {
         id: 4,
@@ -60,10 +56,9 @@ export const CAMPSITES = [
         directions: "https://goo.gl/maps/hqAeMGhH63wfyHRa7",
         info: 'Our clover plot helping to feed tomorrows deer',
         image: cloverImg,
-        elevation: 42,
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        'Please click on the button below to get driving diretions .'
     }
 ];
