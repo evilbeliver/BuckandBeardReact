@@ -1,5 +1,5 @@
 const Partner = ({ partner }) => {
-  const { image, name, description } = partner;
+  const { image, name, description, contact } = partner;
   if (partner)
     return (
         <>
@@ -7,7 +7,17 @@ const Partner = ({ partner }) => {
                 <div className='m-4'> 
                 <h5 className='fw-bold'>{name}</h5>
                         {description}
+                        <br></br>
+                        <a
+                            role='button'
+                            className='btn btn-link'
+                            href={contact}
+                        >
+                            <i className='fa fa-phone' />{contact}
+                        </a>
+                      
                 </div>
+
         </>
      );
      return null;

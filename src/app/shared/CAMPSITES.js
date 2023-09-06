@@ -15,7 +15,7 @@ export const CAMPSITES = [
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            'Please click on the button below to get driving diretions .'
+            'Click the button below for driving diretions to this property.'
     },
     {
         id: 1,
@@ -26,7 +26,7 @@ export const CAMPSITES = [
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-        'Please click on the button below to get driving diretions .'
+            'Click the button below for driving diretions to this property.'
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ export const CAMPSITES = [
         featured: false,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-        'Please click on the button below to get driving diretions .'
+            'Click the button below for driving diretions to this property.'
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ export const CAMPSITES = [
         featured: false,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-        'Please click on the button below to get driving diretions .'
+            'Click the button below for driving diretions to this property.'
     },
     {
         id: 4,
@@ -59,6 +59,6 @@ export const CAMPSITES = [
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-        'Please click on the button below to get driving diretions .'
+            'Click the button below for driving diretions to this property.'
     }
 ];
