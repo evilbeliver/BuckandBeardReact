@@ -1,9 +1,11 @@
-import bootStrapLogo from '../assets/img/bootstrap-logo.png';
-import gitLogo from '../assets/img/git-logo.png';
-import mongoLogo from '../assets/img/mongo-logo.png';
+
+
 import nodeLogo from '../assets/img/node-logo.png';
 import daveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/daveImg.jpeg';
-import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.jpeg'
+import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.jpeg';
+import garyImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/garyImg.jpeg';
+import kenImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/kenImg.jpeg';
+import toddImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/toddImg.jpeg';
 
 export const PARTNERS = [
     {
@@ -18,7 +20,7 @@ export const PARTNERS = [
     {
         id: 1,
         name: 'Todd Randall',
-        image: gitLogo,
+        image: toddImg,
         featured: false,
         contact: 'tel:+ 1-803-270-7319' ,
         description:
@@ -27,7 +29,7 @@ export const PARTNERS = [
     {
         id: 2,
         name: 'Ken Wood',
-        image: mongoLogo,
+        image: kenImg,
         featured: false,
         contact: 'tel:+ 1-803-603-4207' ,
         description:
@@ -36,7 +38,7 @@ export const PARTNERS = [
     {
         id: 3,
         name: 'Gary Barton',
-        image: nodeLogo,
+        image: garyImg,
         featured: false,
         contact: 'tel:+ 1-803-727-5111' ,
         description:
