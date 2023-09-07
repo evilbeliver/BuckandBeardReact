@@ -2,17 +2,18 @@ import bootStrapLogo from '../assets/img/bootstrap-logo.png';
 import gitLogo from '../assets/img/git-logo.png';
 import mongoLogo from '../assets/img/mongo-logo.png';
 import nodeLogo from '../assets/img/node-logo.png';
-import dave from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/dave.jpeg';
+import daveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/daveImg.jpeg';
+import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.jpeg'
 
 export const PARTNERS = [
     {
         id: 0,
         name: 'Steve Till',
-        image: bootStrapLogo,
+        image: steveImg,
         featured: false,
         contact: 'tel:+ 1-803-727-5111' ,
         description:
-            "Bootstrap Outfitters supplies you with the gear you need at prices you can't beat."
+            "Steve Till is one of the founding members of Buck and Beard.  Steve has been hunting for over 40 years.  He has retired 3 times and still loves to come work on the land. Steve enjoys the fellowship of people that enjoy carrying on an age of tradition.."
     },
     {
         id: 1,
@@ -44,7 +45,7 @@ export const PARTNERS = [
     {
         id: 4,
         name: 'Dave Cristinzio',
-        image: dave,
+        image: daveImg,
         featured: false,
         contact: 'tel:+ 1-513-607-6445' ,
         description:
