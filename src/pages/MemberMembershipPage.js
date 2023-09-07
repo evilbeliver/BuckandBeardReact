@@ -8,8 +8,9 @@ const MemberMembershipPage = () => {
 
     return (
         <Container>
-            <SubHeader current='About Us' />
+            <SubHeader current='Member/Membership Info' />
                 <Col sm='11'>
+                    <h2>This is a resource page for current and inquiring members</h2>
                      <p>    At the conclusion of the 2012 deer hunting season, a group of men who had been hunting
                             together for years met to discuss a vision of forming a new hunting club.  They collectively
                             represented many years of hunting in very diverse clubs across the state and input from
@@ -45,7 +46,8 @@ const MemberMembershipPage = () => {
                             solicit members for the sake of paying expenses.  We seek long-term members who will commit
                             themselves to our ideals, become involved in helping us expand those ideals and get their
                             families involved.
-                            <a href={rules} download={rules} target="_blank" rel="noreferrer">download</a>
+                            <a role='button'
+                            className='btn btn-link' href={rules} download={rules} target="_blank" rel="noreferrer">Rules and Regulations</a>
                          </p>
                 </Col>
         </Container>

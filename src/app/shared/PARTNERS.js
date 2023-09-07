@@ -2,7 +2,7 @@ import bootStrapLogo from '../assets/img/bootstrap-logo.png';
 import gitLogo from '../assets/img/git-logo.png';
 import mongoLogo from '../assets/img/mongo-logo.png';
 import nodeLogo from '../assets/img/node-logo.png';
-import upland from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/upland.jpeg';
+import dave from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/dave.jpeg';
 
 export const PARTNERS = [
     {
@@ -44,7 +44,7 @@ export const PARTNERS = [
     {
         id: 4,
         name: 'Dave Cristinzio',
-        image: upland,
+        image: dave,
         featured: false,
         contact: 'tel:+ 1-513-607-6445' ,
         description:
