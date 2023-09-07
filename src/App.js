@@ -23,8 +23,8 @@ function App() {
                     element={<CampsiteDetailPage />}
                 />
                 <Route path='about' element={<AboutPage />} />
+                <Route path='Member/Membership' element={<MemberMembershipPage />} />
                 <Route path='faq' element={<FAQpage />} />
-                <Route path='member/membership' element={<MemberMembershipPage />} />
             </Routes>
             <Footer />
         </div>
