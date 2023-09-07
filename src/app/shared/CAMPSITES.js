@@ -8,18 +8,18 @@ import cloverImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/
 export const CAMPSITES = [
     {
         id: 0,
-        name: 'Hollywood',
+        name: 'Hollywood Tract',
         directions:  "https://goo.gl/maps/t41yX5xT2cDS9axQ9",
         info: 'Deer Hunting',
         image: cfBuck2Img,
         featured: true,
         altdescription: 'As a club we all work hard in the offseason to help generate opportunities for great deer like this one .',
         description:
-            'Click the button below for driving diretions to this property.'
+            'Click the button below for driving directions to this property.'
     },
     {
         id: 1,
-        name: 'Long Cane',
+        name: 'Long Cane Tract',
         directions: "https://goo.gl/maps/ENw5f8Ce3XDGwJoM8",
         info: 'test',
         image: cfBuck3Img,
@@ -30,18 +30,18 @@ export const CAMPSITES = [
     },
     {
         id: 2,
-        name: 'Chappels Ferry',
+        name: 'Chappels Ferry Tract',
         directions: "https://goo.gl/maps/w9CzC3vD9ho1p45q9",
         info: 'test',
-        image: cfBuckImg,
+        image: cloverImg,
         featured: false,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:
-            'Click the button below for driving diretions to this property.'
+            'Click below for driving diretions to this property.'
     },
     {
         id: 3,
-        name: 'Old Charleston',
+        name: 'Old Charleston Tract',
         directions: "https://goo.gl/maps/NdPbfFC4G5LTg7n66",
         info: 'test',
         image: cfFirstDeer,
@@ -52,10 +52,10 @@ export const CAMPSITES = [
     },
     {
         id: 4,
-        name: 'Piney Wood',
+        name: 'Piney Wood Tract',
         directions: "https://goo.gl/maps/hqAeMGhH63wfyHRa7",
         info: 'Our clover plot helping to feed tomorrows deer',
-        image: cloverImg,
+        image: cfBuckImg,
         featured: true,
         altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
         description:

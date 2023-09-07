@@ -2,7 +2,7 @@ export const faqs = [
     {
       question: "How do I enquire about membership?",
       answer:
-        "Send us an email using the Contact Form or give us a call at one of the numbers on the website."
+        "Send us an email at buckandbeard@gmail.com or give one of our officers a call, their contact info can be found under the About Page. Our membership fills up quickly, if we are full we will ask if you would like to be placed on our waiting list."
     },
     {
       question: "Where are your hunting properties located?",

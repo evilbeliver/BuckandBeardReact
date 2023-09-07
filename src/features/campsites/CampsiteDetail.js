@@ -9,6 +9,7 @@ const CampsiteDetail = ( {campsite} ) => {
             <Card>
                 <CardImg top src={image} alt={name} />
                 <CardBody>
+                    <CardText ><strong>{name}</strong></CardText>
                     <CardText>{description}</CardText>
                       <a href={directions} alt="Google Maps Driving Directions" target="_blank" rel="noreferrer"><button>Driving Directions</button></a>
                 </CardBody>
