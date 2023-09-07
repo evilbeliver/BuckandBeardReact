@@ -10,7 +10,7 @@ const CampsitesDirectoryPage = () => {
                     of each other in Edgefield and Saluda Counties. Both of these counties are located in game <a
                         href="https://www.dnr.sc.gov/hunting/zones/zone2.html" target="_blank" rel="noreferrer">Zone 2 of the State</a> which consists of all properties south of the main line of the Norfolk Southern Railroad for Oconee, Pickens and Greenville counties.<br></br>
                 </p>
-                <p>Click on the cards below to learn more about each property along with driving directions. </p>
+                <p><strong>Click on the cards below to learn more about each property along with driving directions.</strong> </p>
             <CampsitesList />
         </Container>
     );
