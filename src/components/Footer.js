@@ -13,7 +13,7 @@ const Footer = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <Link to='/directory'>Directory</Link>
+                                <Link to='/directory'>Properties</Link>
                             </li>
                             <li>
                                 <Link to='/about'>About</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
                     <Col sm='4' className='text-center'>
                          <h5>Contact</h5>
                         <a
-                            role='button'z
+                            role='button'
                             className='btn btn-link'
                             href='mailto:buckandbeard@gmail.com'
                         >

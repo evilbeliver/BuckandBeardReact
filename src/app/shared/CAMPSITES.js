@@ -13,7 +13,7 @@ export const CAMPSITES = [
         info: 'Deer Hunting',
         image: cfBuck2Img,
         featured: true,
-        altdescription: 'As a club we all work hard to help generate opportunities for great deer like this one .',
+        altdescription: 'As a club we all work hard in the offseason to help generate opportunities for great deer like this one .',
         description:
             'Click the button below for driving diretions to this property.'
     },

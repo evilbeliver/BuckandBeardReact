@@ -11,9 +11,9 @@ export const PROMOTIONS = [
         info: 'Turkey Hunting',
         image: turkeyImg,
         featured: true,
-        altdescription: 'Our properties are not only managed for deer but for some great spring turkey hunting as well.',    
+        altdescription: 'Our properties are not only managed for deer, we also work to manage our properties  for some great spring turkey hunting as well.',
         description:
-            'Our properties are not only managed for deer but for some great spring turkey hunting as well.'    
+            'Our properties are not only managed for deer but for some great spring turkey hunting as well.'
     },
     {
         id: 1,
