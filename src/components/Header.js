@@ -43,6 +43,11 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
+                        <NavLink className='nav-link' to='/member/membership'>
+                            <i className='fa fa-address-card fa-lg' /> Member/Membership
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
                         <NavLink className='nav-link' to='/faq'>
                             <i className='fa fa-question fa-lg' /> FAQ
                         </NavLink>
