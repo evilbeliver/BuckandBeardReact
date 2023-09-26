@@ -8,7 +8,8 @@ import CampsiteDetailPage from './pages/CampsiteDetailPage';
 import AboutPage from './pages/AboutPage';
 import './App.css';
 import FAQpage from './pages/Faq';
-import MemberMembershipPage from './pages/MemberMembershipPage';
+//import MemberMembershipPage from './pages/ResourcePage';
+import ResourcePage from './pages/ResourcePage';
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
                     element={<CampsiteDetailPage />}
                 />
                 <Route path='about' element={<AboutPage />} />
-                <Route path='Member/Membership' element={<MemberMembershipPage />} />
+                <Route path='resourcepage' element={<ResourcePage />} />
                 <Route path='faq' element={<FAQpage />} />
             </Routes>
             <Footer />
