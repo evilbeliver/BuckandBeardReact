@@ -11,11 +11,11 @@ const ResourcePage = () => {
             <SubHeader current='Resource Page' />
                 <Col>
                     <h2>This is a resource page for current and inquiring members</h2>
-                         <Card style={{ width: '18rem' }}>
+                         <Card style={{ width: '12rem' }}>
                         <CardBody >
                           <CardTitle>Rules and Regulations</CardTitle>
                           <a role='button'
-                            className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Rules and Regulations</a>
+                            className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Download</a>
                         </CardBody>
                     </Card>
                 </Col>
