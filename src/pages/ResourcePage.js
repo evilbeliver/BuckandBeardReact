@@ -1,4 +1,4 @@
-import { Col, Container, Card, CardBody, CardTitle } from 'reactstrap';
+import { Container, Card, CardBody, CardTitle, CardText, Row } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import rules from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Rules.pdf'
 //import { Link } from 'react-router-dom';
@@ -9,16 +9,17 @@ const ResourcePage = () => {
     return (
         <Container>
             <SubHeader current='Resource Page' />
-                <Col>
+                <Row>
                     <h2>This is a resource page for current and inquiring members</h2>
-                         <Card style={{ width: '12rem' }}>
+                    <Card style={{ width: '12rem' }}>
                         <CardBody >
                           <CardTitle>Rules and Regulations</CardTitle>
+                            <CardText>Please click on the button below to download and view our rules and Regulations </CardText>
                           <a role='button'
                             className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Download</a>
                         </CardBody>
                     </Card>
-                </Col>
+                </Row>
         </Container>                 
     );
 };
