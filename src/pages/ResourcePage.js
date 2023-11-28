@@ -1,6 +1,7 @@
 import { Container, Card, CardBody, CardTitle, CardText, Row } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import rules from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Rules.pdf'
+import waiver from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/waiver.pdf'
 //import { Link } from 'react-router-dom';
 //import PartnersList from '../features/parters/PartnersList';
 
@@ -25,7 +26,7 @@ const ResourcePage = () => {
                           <CardTitle>Member/Visitor Waiver</CardTitle>
                             <CardText>Please click on the button below to download the member/visitor waiver.</CardText>
                           <a role='button'
-                            className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Download</a>
+                            className='btn btn-primary' href={waiver} download={waiver} target="_blank" rel="noreferrer">Download</a>
                         </CardBody>
                     </Card>
                 </Row>
