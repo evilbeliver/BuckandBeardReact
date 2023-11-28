@@ -19,6 +19,15 @@ const ResourcePage = () => {
                             className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Download</a>
                         </CardBody>
                     </Card>
+                    &nbsp;&nbsp;&nbsp;
+                    <Card style={{ width: '12rem' }}>
+                        <CardBody >
+                          <CardTitle>Member/Visitor Waiver</CardTitle>
+                            <CardText>Please click on the button below to download the member/visitor waiver.</CardText>
+                          <a role='button'
+                            className='btn btn-primary' href={rules} download={rules} target="_blank" rel="noreferrer">Download</a>
+                        </CardBody>
+                    </Card>
                 </Row>
         </Container>                 
     );
