@@ -44,7 +44,7 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:buckandbeard@gmail.com'
+                            href='mailto:buckandbeard@gmail.com?subject=Attention BuckBeard Officers'
                         >
                             <i className='fa fa-envelope-o' /> Email@buck&beard
                         </a>
