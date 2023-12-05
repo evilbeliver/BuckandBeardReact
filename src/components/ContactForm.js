@@ -92,7 +92,7 @@ const ContactForm = () => {
                             type='checkbox'
                             className='form-check-input'
                         />{' '}
-                        May we contact you?
+                        Preferred method of contact?
                     </Label>
                     <Col md='4'>
                         <Field

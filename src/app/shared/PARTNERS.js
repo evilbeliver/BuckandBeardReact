@@ -1,11 +1,11 @@
 
 
-import nodeLogo from '../assets/img/node-logo.png';
+import adamImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/adamImg.png';
 import daveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/daveImg.jpeg';
-import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.jpeg';
-import garyImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/garyImg.jpeg';
-import kenImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/kenImg.jpeg';
-import toddImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/toddImg.jpeg';
+import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.png';
+import garyImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/garyImg.png';
+import kenImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/kenImg.png';
+import toddImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/toddImg.png';
 
 export const PARTNERS = [
     {
@@ -24,7 +24,7 @@ export const PARTNERS = [
         featured: false,
         contact: 'tel:+ 1-803-270-7319' ,
         description:
-            'Join Git Out Expeditions to explore new horizons with a group of other adventurers!'
+            ''
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ export const PARTNERS = [
         featured: false,
         contact: 'tel:+ 1-803-603-4207' ,
         description:
-            'Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.'
+            ''
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ export const PARTNERS = [
         featured: false,
         contact: 'tel:+ 1-803-727-5111' ,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            ''
     },
     {
         id: 4,
@@ -56,10 +56,10 @@ export const PARTNERS = [
     {
         id: 5,
         name: 'Adam Seibert',
-        image: nodeLogo,
+        image: adamImg,
         featured: false,
         contact: 'tel:+ 1-803-768-7302' ,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            ''
     },
 ];
