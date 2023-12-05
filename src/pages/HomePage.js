@@ -12,7 +12,7 @@ const HomePage = () => {
                             for the outdoors and the opportunities to enjoy safe successful deer and turkey hunting. If you are
                             seeking a new experience, we encourage you to read on to determine if we offer what you are looking
                             for. For more information and to schedule a tour of our properties,<a  role='button'
-                            className='btn btn-link' href="mailto:buckandbeard@gmail.com" alt="Button to create an e-mail to Buck and Beard"> <i className='fa fa-envelope-o' /> e-mail</a>us and we will get back to you.
+                            className='btn btn-link' href='mailto:buckandbeard@gmail.com?subject=Attention BuckBeard Officers' alt="Button to create an e-mail to Buck and Beard"> <i className='fa fa-envelope-o' /> e-mail</a>us and we will get back to you.
                          </p>
             <DisplayList />
         </Container>
