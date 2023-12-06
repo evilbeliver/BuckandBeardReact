@@ -1,5 +1,4 @@
 
-
 import adamImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/adamImg.png';
 import daveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/daveImg.jpeg';
 import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.png';

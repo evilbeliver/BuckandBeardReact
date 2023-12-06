@@ -11,7 +11,7 @@ const CampsiteDetail = ( {campsite} ) => {
                 <CardBody>
                     <CardText ><strong>{name}</strong></CardText>
                     <CardText>{description}</CardText>
-                      <a href={directions} alt="Google Maps Driving Directions" target="_blank" rel="noreferrer"><button>Driving Directions</button></a>
+                      <a role='button' className='btn btn-secondary' href={directions} alt="Google Maps Driving Directions" target="_blank" rel="noreferrer">Directions</a>
                 </CardBody>
             </Card>
         </Col>
