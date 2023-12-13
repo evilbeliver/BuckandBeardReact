@@ -1,14 +1,23 @@
 import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateContactForm } from '../utils/validateContactForm';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-    const handleSubmit = (values, { resetForm }) => {
-        console.log('form values:', values);
-        console.log('in JSON format:', JSON.stringify(values));
-        resetForm();
-    };
+    const form = useRef();
 
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_wdj573i', 'template_6f00zzq', form.current, 'Ysg66P35bw2VFVd0m')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+  
     return (
         <Formik
             initialValues={{
@@ -20,10 +29,9 @@ const ContactForm = () => {
                 contactType: 'By Phone',
                 feedback: '',
             }}
-            onSubmit={handleSubmit}
             validate={validateContactForm}
         >
-            <Form>
+            <Form ref={form} onSubmit={sendEmail}>
                 <FormGroup row>
                     <Label htmlFor='firstName' md='2'>
                         First Name
