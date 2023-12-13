@@ -21,9 +21,11 @@ export const validateContactForm =(values) => {
         errors.phoneNum = 'The phone number should contain only numbers.';
     }
 
-    if (!values.email.includes('@')) {
-        errors.email = 'Email should contain a @';
-    }
+    if (!values.email) {
+     errors.email = 'Required';
+   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+     errors.email = 'Invalid email address';
+   }
 
     return errors;
 }

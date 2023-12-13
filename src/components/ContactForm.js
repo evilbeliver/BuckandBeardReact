@@ -5,8 +5,12 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+    const handleSubmit = (values, { resetForm },) => {
+       console.log('form values:', values);
+        console.log('in JSON format:', JSON.stringify(values));
+        resetForm();
+    };
     const form = useRef();
-
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -16,6 +20,8 @@ const ContactForm = () => {
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset();
+        alert ("Your message has been sent");
     };
   
     return (
@@ -29,8 +35,10 @@ const ContactForm = () => {
                 contactType: 'By Phone',
                 feedback: '',
             }}
+            onSubmit={handleSubmit}
             validate={validateContactForm}
         >
+            {({ isValid, dirty }) => (
             <Form ref={form} onSubmit={sendEmail}>
                 <FormGroup row>
                     <Label htmlFor='firstName' md='2'>
@@ -128,12 +136,13 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup row>
                     <Col md={{ size: 10, offset: 2 }}>
-                        <Button type='submit' color='primary'>
+                        <Button  type='submit' color='primary' disabled={!isValid || !dirty}>
                             Send
                         </Button>
                     </Col>
                 </FormGroup>
             </Form>
+            )}
         </Formik>
     );
 };
