@@ -21,7 +21,7 @@ const ContactForm = () => {
             console.log(error.text);
         });
         e.target.reset();
-        alert ("Your message has been sent");
+        alert ("Thank you,for reaching out to Buck and Beard Hunt Club. Your message has been sent and we will get back to you as soon as possible!");
     };
   
     return (
@@ -42,7 +42,7 @@ const ContactForm = () => {
             <Form ref={form} onSubmit={sendEmail}>
                 <FormGroup row>
                     <Label htmlFor='firstName' md='2'>
-                        First Name
+                        First Name*
                     </Label>
                     <Col md='10'>
                         <Field
@@ -57,7 +57,7 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='lastName' md='2'>
-                        Last Name
+                        Last Name*
                     </Label>
                     <Col md='10'>
                         <Field
@@ -72,7 +72,7 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='phoneNum' md='2'>
-                        Phone
+                        Phone*
                     </Label>
                     <Col md='10'>
                         <Field
@@ -87,7 +87,7 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='email' md='2'>
-                        Email
+                        Email*
                     </Label>
                     <Col md='10'>
                         <Field

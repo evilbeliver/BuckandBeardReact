@@ -16,9 +16,9 @@ export const validateContactForm =(values) => {
         errors.lastName = 'Must be 15 characters or less';
     }
 
-    const reg = /^\d+$/;
+    const reg = /^\d{10}$/;
     if (!reg.test(values.phoneNum)) {
-        errors.phoneNum = 'The phone number should contain only numbers.';
+        errors.phoneNum = 'Invalid Phone Number.';
     }
 
     if (!values.email) {
