@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fdd4461b.css",
-    "main.js": "/static/js/main.f4d1b337.js",
+    "main.js": "/static/js/main.d8ffa49b.js",
     "static/media/turkey.jpg": "/static/media/turkey.622b81a688ee8fb0049b.jpg",
     "static/media/CF Buck 3.jpeg": "/static/media/CF Buck 3.9f9dd3f25bd636ed0c2b.jpeg",
     "static/media/CF Buck 2.jpeg": "/static/media/CF Buck 2.ca8435d7d0be5cd1739e.jpeg",
@@ -11,14 +11,14 @@
     "static/media/CF Buck.jpeg": "/static/media/CF Buck.789043301519f9c750d8.jpeg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/Rules.pdf": "/static/media/Rules.78e04c986b26d9bda850.pdf",
+    "static/media/newApp.pdf": "/static/media/newApp.d1f1b91b20772e7cd4dd.pdf",
+    "static/media/Rules.pdf": "/static/media/Rules.7642af7f06663682d4d7.pdf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/waiver.pdf": "/static/media/waiver.cca8d9a71d7182b6f8e2.pdf",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/waiver.pdf": "/static/media/waiver.dfd1e5fdb52c96545dff.pdf",
     "static/media/Clover.jpeg": "/static/media/Clover.3f9cfa62a874175beaf4.jpeg",
     "static/media/lobster-latin-400.woff": "/static/media/lobster-latin-400.e4473cd7170c39b44c99.woff",
     "static/media/lobster-latin-400.woff2": "/static/media/lobster-latin-400.484e338f970ddc242388.woff2",
-    "static/media/newApp.docx": "/static/media/newApp.a3dba16b805a499556ea.docx",
     "static/media/open-sans-latin-800.woff": "/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
     "static/media/open-sans-latin-700.woff": "/static/media/open-sans-latin-700.f24f4bcef8a4a0eb6345.woff",
     "static/media/open-sans-latin-600.woff": "/static/media/open-sans-latin-600.7e06644bbdc83069cec8.woff",
@@ -39,17 +39,16 @@
     "static/media/open-sans-latin-300italic.woff2": "/static/media/open-sans-latin-300italic.b45d9997b704ab3daad1.woff2",
     "static/media/open-sans-latin-600italic.woff2": "/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
-    "static/media/adamImg.png": "/static/media/adamImg.a8c207be00d7e4c9765e.png",
     "static/media/garyImg.png": "/static/media/garyImg.a8c207be00d7e4c9765e.png",
     "static/media/kenImg.png": "/static/media/kenImg.a8c207be00d7e4c9765e.png",
     "static/media/steveImg.png": "/static/media/steveImg.a8c207be00d7e4c9765e.png",
     "static/media/toddImg.png": "/static/media/toddImg.a8c207be00d7e4c9765e.png",
     "index.html": "/index.html",
     "main.fdd4461b.css.map": "/static/css/main.fdd4461b.css.map",
-    "main.f4d1b337.js.map": "/static/js/main.f4d1b337.js.map"
+    "main.d8ffa49b.js.map": "/static/js/main.d8ffa49b.js.map"
   },
   "entrypoints": [
     "static/css/main.fdd4461b.css",
-    "static/js/main.f4d1b337.js"
+    "static/js/main.d8ffa49b.js"
   ]
 }
