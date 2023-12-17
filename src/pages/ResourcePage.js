@@ -1,8 +1,8 @@
 import { Container, Card, CardBody, CardTitle, CardText, Row } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import rules from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/Rules.pdf'
-import waiver from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/waiver.pdf'
-import newApp from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/newApp.docx'
+import waiver from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/waiver.pdf'
+import newApp from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/newApp.pdf'
 //import { Link } from 'react-router-dom';
 //import PartnersList from '../features/parters/PartnersList';
 
