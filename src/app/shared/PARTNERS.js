@@ -1,5 +1,4 @@
 
-import adamImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/adamImg.png';
 import daveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/daveImg.jpeg';
 import steveImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/steveImg.png';
 import garyImg from '/Users/davidcristinzio/Desktop/BuckandBeardReact/src/app/assets/img/garyImg.png';
@@ -52,13 +51,5 @@ export const PARTNERS = [
         description:
             'Dave has been part of Buck and Beard for 5+ years and has been an officer over 4 of those years. Dave has 20+ years eperience in hunting from upland (pheasant, grouse, quail, and woodcock) to bow and rifle hunting for deer. Dave also has experience in training upland hunting dogs and loves everything to do with Weimaraners'
     },
-    {
-        id: 5,
-        name: 'Adam Seibert',
-        image: adamImg,
-        featured: false,
-        contact: 'tel:+ 1-803-768-7302' ,
-        description:
-            ''
-    },
+
 ];
