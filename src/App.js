@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
@@ -26,6 +26,7 @@ function App() {
                 <Route path='about' element={<AboutPage />} />
                 <Route path='resourcepage' element={<ResourcePage />} />
                 <Route path='faq' element={<FAQpage />} />
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
             <Footer />
         </div>
